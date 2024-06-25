@@ -16,7 +16,7 @@
             }
         },
         "dnsLabelPrefix": {
-            "defaultValue": "87dssdjnjjnjbj",
+            "defaultValue": "896sdjabsdbk",
             "type": "String",
             "metadata": {
                 "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
