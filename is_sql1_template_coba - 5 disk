@@ -23,10 +23,10 @@
             }
         },
         "publicIpName": {
-            "defaultValue": "876687987986jfdsjfds",
+            "defaultValue": "hdbfdhkkjc8078709390973807",
             "type": "String",
             "metadata": {
-                "description": "876687987986jfdsjfds."
+                "description": "hdbfdhkkjc8078709390973807."
             }
         },
         "publicIPAllocationMethod": {
@@ -109,18 +109,20 @@
             "type": "String",
             "metadata": {
                 "description": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
-            },
-        "dataDiskId3": {
+            }
+        },
+		"dataDiskId3": {
             "defaultValue": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-03-copy-disk",
             "type": "String",
             "metadata": {
-                "description": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-03-copy-disk"
-            },
-        "dataDiskId4": {
+                "description": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
+            }
+        },
+		"dataDiskId4": {
             "defaultValue": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-04-copy-disk",
             "type": "String",
             "metadata": {
-                "description": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-04-copy-disk"
+                "description": "/subscriptions/d3b269f8-d5f8-4942-ba31-158fb47c0ce9/resourceGroups/RG_SIMULATION_DEST/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
             }
         },
         "location": {
@@ -308,14 +310,14 @@
                                 "id": "[parameters('dataDiskId2')]"
                             }
                         },
-                        {
+						{
                             "lun": 2,
                             "createOption": "Attach",
                             "managedDisk": {
                                 "id": "[parameters('dataDiskId3')]"
                             }
                         },
-                        {
+						{
                             "lun": 3,
                             "createOption": "Attach",
                             "managedDisk": {
